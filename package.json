@@ -1,0 +1,17 @@
+{
+  "name": "swc-rec",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pass": "swc src -d dist/pass",
+    "fail": "swc .src -d dist/fail"
+  },
+  "keywords": [],
+  "author": "simon",
+  "license": "ISC",
+  "devDependencies": {
+    "@swc/cli": "^0.1.49",
+    "@swc/core": "^1.2.80"
+  }
+}
